@@ -1,10 +1,11 @@
-.main{
+main{
     position: relative;
+    height: 100vh;
 }
 
 .topRow{
     display: flex;
-    height: 100px;
+    height: 10%;
 }
 .topRow > div{
     background-color: skyblue;
@@ -18,12 +19,12 @@
 }
 
 .medRow{
-    height: 400px;
+    height: 40%;
     background-color: skyblue;
     margin-bottom: 10px;
 }
 .bottomRow{
-    height: 20px;
+    height: 5%;
     background-color: yellowgreen;
 }
 
